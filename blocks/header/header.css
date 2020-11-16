@@ -1,0 +1,35 @@
+@import url('./__logo/header__logo.css');
+@import url('./__lang/header__lang.css');
+
+
+.header {
+    position: relative;
+    width:1184px;
+    margin-top:30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:1280px) {
+    .header {
+        width:calc(100% - 96px);
+        transition: width 0.10s linear;
+ }
+}
+
+@media screen and (max-width:1023px) {
+    .header {
+        width:calc(100% - 48px);
+        transition: width 0.10s linear;
+ }
+}
+
+@media screen and (max-width:767px) {
+    
+    .header {
+        width:calc(100% - 32px);
+        margin-top:16px;
+        transition: width 0.10s linear;
+        
+ }
+}

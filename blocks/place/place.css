@@ -1,0 +1,67 @@
+@import url('../place/__title/place__title.css');
+@import url('../place/__image/place__image.css');
+@import url('../place/__website/place__website.css');
+@import url('../place/__url-heading/place__url-heading.css');
+@import url('../place/__url/place__url.css');
+@import url('../place/__paragraphs-container/place__paragraphs-container.css');
+@import url('../place/__paragraph/place__paragraph.css');
+
+
+.place {
+    display: grid;
+    grid-template-columns: 460px 484px;
+    grid-column-gap: 40px;
+    grid-template-rows: auto 460px;
+    grid-row-gap: 60px;
+}
+
+.place:first-of-type {
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width:1279px) {
+    .place {
+
+        grid-template-columns: 440px 456px;
+        grid-column-gap: 32px;
+        grid-template-rows: auto 440px;
+        grid-row-gap: 40px;
+    }
+}
+
+
+@media screen and (max-width:1023px) {
+    .place {
+        grid-template-columns: 340px 352px;
+        grid-column-gap: 28px;
+        grid-template-rows: auto auto;
+        grid-row-gap: 60px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .place:first-of-type {
+        margin: 18px 0 0 0;
+    }
+
+    .place {
+        grid-template-columns: 375px;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 24px;
+
+
+    }
+}
+
+@media screen and (max-width:374px) {
+
+    .place {
+        grid-template-columns: 320px;
+        grid-template-rows: auto auto auto;
+        grid-row-gap: 24px;
+
+
+    }
+}

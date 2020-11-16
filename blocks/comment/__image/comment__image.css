@@ -1,0 +1,10 @@
+
+.comment__image {
+    
+    width:97px;
+    height:97px;
+    object-fit:cover;
+    border-radius: 50%;
+    
+    
+}

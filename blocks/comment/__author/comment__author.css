@@ -1,0 +1,19 @@
+@import url('../../../vendor/Inter\ \(web\ hinted\)/inter.css');
+
+.comment__author {
+ 
+font-family: 'Inter', Arial, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+margin: 0 0 102px 0;
+}
+
+@media screen and (max-width:1023px) {
+    .comment__author {
+       order: 2;
+       margin: 16px 0 24px 0;
+    }
+}

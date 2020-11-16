@@ -1,0 +1,40 @@
+@import url('../../../vendor/Inter\ \(web\ hinted\)/inter.css');
+
+.video__title {
+
+    max-width: 322px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    color: #FFFFFF;
+    margin: 12px 0 18px 0;
+    z-index: 2;
+}
+
+
+@media screen and (max-width:1023px) {
+    .video__title {
+        max-width: 288px;
+        margin: 8px 0 12px 0;
+        font-size: 24px;
+        line-height: 26px;
+
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .video__title {
+        max-width: calc(100% - 48px);
+        margin: 8px 0 2px 0;
+    }
+}
+
+@media screen and (max-width:374px) {
+    .video__title {
+        max-width: 256px;
+        margin: 8px 0 2px 0;
+    }
+}

@@ -1,0 +1,37 @@
+@import url('../../../vendor/Inter\ \(web\ hinted\)/inter.css');
+
+.footer__link {
+
+
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    color: #FFFFFF;
+    text-decoration-line: none;
+    margin: 0 18px 0 0;
+}
+
+
+@media screen and (max-width:1023px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+        
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+        margin: 0 0 14px 0;
+    }
+
+    .footer__link:last-of-type {
+        margin: 0;
+    }
+}
+

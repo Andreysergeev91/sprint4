@@ -1,0 +1,21 @@
+@import url('../../../vendor/Inter\ \(web\ hinted\)/inter.css');
+
+.intro__title {
+    max-width: 683px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin: 0 0 45px 0;
+}
+
+@media screen and (max-width:767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+        max-width: 240px;
+        transition: width 0.10s linear;
+    }
+}

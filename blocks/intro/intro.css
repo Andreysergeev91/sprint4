@@ -1,0 +1,35 @@
+@import url('./__title/intro__title.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__text/intro__text.css');
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+    align-items: flex-start;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width:1279px) {
+    .intro {
+        width:calc(100% - 96px);
+        transition: width 0.10s linear;
+ }
+}
+
+@media screen and (max-width:1023px) {
+    .intro {
+        width:calc(100% - 48px);
+        transition: width 0.10s linear;
+ }
+}
+
+@media screen and (max-width:767px) {
+    
+    .intro {
+        width:calc(100% - 32px);
+        margin-top:16px;
+        transition: width 0.10s linear;
+        
+ }
+}

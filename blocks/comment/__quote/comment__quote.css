@@ -1,0 +1,48 @@
+@import url('../../../vendor/Inter\ \(web\ hinted\)/inter.css');
+
+.comment__quote {
+
+    max-width: 382px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 42px 0 24px 0;
+}
+
+@media screen and (max-width:1279px) {
+    .comment__quote {
+        max-width: 296px;
+        text-align: justify;
+        margin: 42px 0 16px 0;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .comment__quote {
+        max-width: 382px;
+        font-size: 16px;
+        line-height: 23px;
+        order: 3;
+        margin: 0 0 48px 0;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .comment__quote {
+        max-width: 343px;
+
+
+    }
+}
+
+@media screen and (max-width:374px) {
+    .comment__quote {
+        max-width: 288px;
+        margin: 0 0 64px 0;
+
+    }
+}
